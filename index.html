@@ -4,12 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
       rel="stylesheet"
     />
-    <title>Animate On Scroll Example</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hip Hop Stars Gallery</title>
   </head>
-  <body></body>
+  <body>
+    <header class="main-header">
+      <h1><span>Hip Hop Stars</span> Gallery</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <img src="images/2pac.jpg" alt="" />
+        <div>
+          <h3>2pac</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+            delectus voluptate deleniti. Qui, minus natus. Dolor ab aspernatur
+            doloribus enim ad commodi itaque animi, provident suscipit. Nam
+            earum dicta veniam.
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-left">
+        <img src="images/nas.jpg" />
+        <div>
+          <h3>Nas</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+            delectus voluptate deleniti. Qui, minus natus. Dolor ab aspernatur
+            doloribus enim ad commodi itaque animi, provident suscipit. Nam
+            earum dicta veniam.
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-right">
+        <img src="images/biggie.jpg" />
+        <div>
+          <h3>Biggie Smalls</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+            delectus voluptate deleniti. Qui, minus natus. Dolor ab aspernatur
+            doloribus enim ad commodi itaque animi, provident suscipit. Nam
+            earum dicta veniam.
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-left">
+        <img src="images/icecube.jpg" />
+        <div>
+          <h3>Ice Cube</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+            delectus voluptate deleniti. Qui, minus natus. Dolor ab aspernatur
+            doloribus enim ad commodi itaque animi, provident suscipit. Nam
+            earum dicta veniam.
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-right">
+        <img src="images/currensy.jpg" />
+        <div>
+          <h3>Curren$y</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+            delectus voluptate deleniti. Qui, minus natus. Dolor ab aspernatur
+            doloribus enim ad commodi itaque animi, provident suscipit. Nam
+            earum dicta veniam.
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
